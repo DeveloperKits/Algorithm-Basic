@@ -12,7 +12,8 @@ public class Binary_Search {
      public static void main(String[] args) {
           Scanner scanner = new Scanner(System.in);
 
-          int A[] = new int[10], low, high, Xm, z, mid;
+          int[] A = new int[10];
+          int low, high, Xm, z, mid;
           boolean flag = false;
           low = 0;
           high = A.length - 1;
@@ -22,7 +23,6 @@ public class Binary_Search {
           for (int i=0; i<A.length; i++){
               A[i] = scanner.nextInt();
           }
-
 
           do {
                mid = (low + high)/2;

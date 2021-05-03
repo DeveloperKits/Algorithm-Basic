@@ -2,8 +2,8 @@ package Greedy_Algorithm;
 
 public class Bin_picking_problem {
 
-    static int accommodate(int[] weight, int n, int c)
-    {
+
+    static int accommodate(int[] weight, int n, int c) {
         int result = 0, bin_rem = c;
 
         for (int i = 0; i < n; i++) {
@@ -24,8 +24,8 @@ public class Bin_picking_problem {
 
     public static void main(String[] args)
     {
-        int[] weight = { 4, 8, 1, 4, 2, 1 };
-        int Bin_Size = 10;
+        int[] weight = { 3, 5, 6, 1, 3 };
+        int Bin_Size = 6;
         int array_size = weight.length;
         System.out.println("We need " + accommodate(weight, array_size, Bin_Size) +" bins to accommodate all items ");
     }

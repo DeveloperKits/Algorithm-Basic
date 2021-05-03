@@ -31,7 +31,7 @@ public class Huffman_Coding {
 
     public static void main(String[] args) {
 
-        String message = "Akash##Akash";
+        String message = "Rukya##Rukya";
 
         // Convert the string to char array
 
